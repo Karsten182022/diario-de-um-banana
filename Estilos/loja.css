@@ -1,0 +1,160 @@
+.cabecalho {
+    height: 15vh;
+    background-color: rgba(255, 255, 0, 0.932);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Nanum Pen Script', cursive;
+
+}
+
+H1 {
+    font-size: 4vw;
+    font-weight: bold;
+    margin-left: 3vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 18vh;
+
+}
+
+.ulCabecalho {
+
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+}
+
+
+.categorias {
+    padding: 5px;
+    transition: transform 1s;
+}
+
+.categorias1 {
+    padding: 5px;
+    transition: transform 1s;
+    display: block;
+}
+
+.categorias:hover {
+    color: orange;
+    transform: translateX(1px) scale(1.2);
+    text-decoration: underline;
+}
+
+.borda {
+    font-family: 'Nanum Pen Script', cursive;
+
+    text-align: center;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 1vw;
+    padding-left: 3.5vh;
+    padding-bottom: 3vw;
+    padding-right: 3.5vh;
+    transition: transform 1s;
+}
+
+
+main {
+    background-image: url('');
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%
+}
+
+footer {
+    bottom: 0px;
+    width: 100%;
+}
+
+.rodape {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBranco {
+    height: 13vh;
+    position: absolute;
+}
+
+p {
+    color: white;
+    margin-top: 15vh;
+    font-size: smaller;
+}
+
+.produtos {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+    height: 40vh;
+    width: 13vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3%;
+    transition: transform 1s;
+    padding: 3vh;
+}
+
+.produtos:hover {
+    transform: translateX(1px) scale(1.2);
+
+}
+
+.nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+
+.preco {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5vh;
+    transition: transform 1s;
+}
+
+.preco:hover {
+    color: green;
+    transform: translateX(1px) scale(1.2);
+}
+
+.imagemProdutos {
+    display: block;
+    height: 20vh;
+    border: 0px;
+    border-radius: 3%;
+}
+
+.carrinho {
+    background-color: lightblue;
+    border: 0px;
+    border-radius: 5%;
+    width: 20vh;
+    display: block;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 3vh;
+}
